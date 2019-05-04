@@ -114,7 +114,12 @@ table, th, td{
     margin-top: 0;
     margin-bottom: 20px;
 }
-
+.extra {
+	color: #fff;
+    background-color: black;
+    padding: 70px 0;
+    text-align: center;
+}
 .intro {
 	color: #fff;
     background-color: yellowgreen;
@@ -255,7 +260,7 @@ table, th, td{
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: #222;
     }
 
     .navbar-default .navbar-header .navbar-brand {

@@ -64,7 +64,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 30%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -97,6 +97,13 @@ header .header-content .header-content-inner p {
 .intro {
 	color: #fff;
     background-color: yellowgreen;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.extra {
+	color: #fff;
+    background-color: black;
     padding: 70px 0;
     text-align: center;
 }
@@ -234,7 +241,7 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: #222;
     }
 
     .navbar-default .navbar-header .navbar-brand {
